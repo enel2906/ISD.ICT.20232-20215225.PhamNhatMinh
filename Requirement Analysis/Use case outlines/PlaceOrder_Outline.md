@@ -25,15 +25,15 @@ Basic Flow:
 12. The Customer receive notification and can track the delivery process.
 
 Alternative Flows:
-      Invalid Information:
-            System check if the information of customer provide when order are invalid 
+      1. Invalid Information:
+            - System check if the information of customer provide when order are invalid 
             will decline the request and ask customer for re-enter until the information is valid
-      Invalid Products:
-            The system has flow to check and auto update the quantity of the product.
-            If the product in the cart of the customers are not available, this will make a notification for them to know.
-      Making Rush Order:
-            On order place customer can select Rush Order.
-            The system will check which products are support Rush Orders.
-            If all the products are support Rush Orders, the system will recalculate orders fee by Rush Order fee.
-            Products that do not support express delivery will be delivered as usual. Fee Delivery will be calculated and 
+      2. Invalid Products:
+            - The system has flow to check and auto update the quantity of the product.
+            - If the product in the cart of the customers are not available, this will make a notification for them to know.
+      3. Making Rush Order:
+            - On order place customer can select Rush Order.
+            - The system will check which products are support Rush Orders.
+            - If all the products are support Rush Orders, the system will recalculate orders fee by Rush Order fee.
+            - Products that do not support express delivery will be delivered as usual. Fee Delivery will be calculated and 
             displayed separately for normally delivered products (if yes) and fast delivery products.
