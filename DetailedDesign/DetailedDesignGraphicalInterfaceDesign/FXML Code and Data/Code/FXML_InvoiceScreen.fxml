@@ -186,12 +186,12 @@
                               <Font name="System Italic" size="18.0" />
                            </font>
                         </Label>
-                        <Label layoutX="143.0" layoutY="172.0" text="123 Tay Ho">
+                        <Label layoutX="143.0" layoutY="172.0" text="17 Long Bien">
                            <font>
                               <Font name="System Italic" size="18.0" />
                            </font>
                         </Label>
-                        <Label layoutX="145.0" layoutY="267.0" text="Ship outside working hour">
+                        <Label layoutX="145.0" layoutY="267.0" text="None">
                            <font>
                               <Font name="System Italic" size="18.0" />
                            </font>
@@ -220,7 +220,7 @@
                         <Image url="@../Data%20Image/Aims_Logo.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="138.0" layoutY="20.0" text="Invoice for rush order" textFill="#0e86d7">
+                  <Label layoutX="184.0" layoutY="27.0" text="Invoice for rush order" textFill="#d6370f">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>

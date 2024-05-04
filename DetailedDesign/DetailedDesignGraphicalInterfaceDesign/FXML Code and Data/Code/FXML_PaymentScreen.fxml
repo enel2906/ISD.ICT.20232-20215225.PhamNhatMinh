@@ -12,41 +12,6 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
-         <center>
-            <Pane prefHeight="500.0" prefWidth="800.0" BorderPane.alignment="CENTER">
-               <children>
-                  <TextField layoutX="256.0" layoutY="125.0" prefHeight="35.0" prefWidth="420.0" />
-                  <TextField layoutX="256.0" layoutY="176.0" prefHeight="35.0" prefWidth="420.0" />
-                  <Label layoutX="92.0" layoutY="129.0" text="Card holder name">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="110.0" layoutY="180.0" text="Card number">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="102.0" layoutY="227.0" text="Expriation date">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="108.0" layoutY="275.0" text="Security code">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Button layoutX="319.0" layoutY="416.0" mnemonicParsing="false" text="Confirm payment">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Button>
-                  <TextField layoutX="256.0" layoutY="223.0" prefHeight="35.0" prefWidth="420.0" />
-                  <TextField layoutX="256.0" layoutY="271.0" prefHeight="35.0" prefWidth="420.0" />
-               </children>
-            </Pane>
-         </center>
          <top>
             <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="800.0" BorderPane.alignment="CENTER">
                <children>
@@ -55,7 +20,7 @@
                         <Image url="@../Data%20Image/Aims_Logo.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="139.0" layoutY="14.0" text="Payment" textFill="#2b1bde">
+                  <Label layoutX="172.0" layoutY="11.0" text="Payment" textFill="#de381d">
                      <font>
                         <Font name="Arial" size="44.0" />
                      </font>
@@ -63,6 +28,41 @@
                </children>
             </Pane>
          </top>
+         <bottom>
+            <Pane prefHeight="500.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField layoutX="225.0" layoutY="86.0" prefHeight="35.0" prefWidth="420.0" />
+                  <TextField layoutX="225.0" layoutY="190.0" prefHeight="35.0" prefWidth="420.0" />
+                  <Label layoutX="225.0" layoutY="35.0" text="Card holder name:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="225.0" layoutY="144.0" text="Card number:r">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="225.0" layoutY="237.0" text="Expriation date:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="225.0" layoutY="333.0" text="Card Security Code:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="303.0" layoutY="434.0" mnemonicParsing="false" text="Confirm payment">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <TextField layoutX="225.0" layoutY="285.0" prefHeight="35.0" prefWidth="420.0" />
+                  <TextField layoutX="225.0" layoutY="373.0" prefHeight="35.0" prefWidth="420.0" />
+               </children>
+            </Pane>
+         </bottom>
       </BorderPane>
    </children>
 </Pane>
